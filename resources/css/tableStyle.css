@@ -1,0 +1,43 @@
+table {
+    width: 800px;
+    margin: auto;
+}
+
+.firstcorner {
+    border-radius: 7px 0 0 0;
+}
+
+.lastcorner {
+    border-radius: 0 7px 0 0;
+    -webkit-border-radius: 0 7px 0 0;
+    -moz-border-radius: 0 7px 0 0;
+    -ms-border-radius: 0 7px 0 0;
+    -o-border-radius: 0 7px 0 0;
+}
+
+th {
+    background: #03bb85;
+    color: rgb(255, 247, 247);
+    padding: 7px 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+td {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    padding: 7px 8px 0;
+}
+
+tbody tr:nth-child(even) {
+    background: #eee;
+}
+
+caption {
+    background: gray;
+    color: #eee;
+    padding: 3px;
+    border-radius: 12px;
+    font-size: 22px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
